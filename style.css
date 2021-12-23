@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .large-header{
+    position: relative;
+    width: 100%;
+    background: #111;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+  }
+  
+  .demo .large-header{
+    background-image: url("https://www.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png"); /* TODO:01 CHANGE LINK 11*/
+  }
+  
+  .main-title{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    color: #f9f1e9;
+    text-align: center;
+    top:15%;
+    left: 23%;
+    -webkit-transform: translate3d(-50%,-50%,0);
+    transform: translate(-50%,-50%,0);
+  }
+  
+  .demo .main-title{
+    text-transform: uppercase;
+    font-size: 5em;
+    letter-spacing: 0.1em;
+  }
+  
+  .main-title .thin{
+    font-weight: 200;
+  }
+  
+  .infinity{ 
+    font-size: 1.3em;
+  }
+  
+  @media only screen and (max-width: 768px){
+    .demo .main-title{
+        font-size: 3em;
+    }
+  }
+  
+  .subtitle{
+    position: absolute;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    color: #f9f1e9;
+    text-align: center;
+    top:22%;
+    left: 7.1%;
+    -webkit-transform: translate3d(-50%,-50%,0);
+    transform: translate(-50%,-50%,0); 
+  }
+  
+  .subtitle .sub{
+    font-weight: 200;
+    font-size: xx-large;
+  }
+  
+  .speech{
+    position: absolute;
+    line-height: 300%;
+    margin: 0;
+    padding: 0;
+    color: #f9f1e9;
+    text-align: left;
+    top:55%;
+    left: 70%;
+    -webkit-transform: translate3d(-50%,-50%,0);
+    transform: translate(-50%,-50%,0);   
+  }
+  
+  .speech .words{
+    font-size: 1.2em;
+    font-family: 'Roboto Mono', serif;
+    font-weight: 300;
+    letter-spacing: 0.3em;
+    font-style: italic;
+  }
+  
+  .speech .texty{
+    font-family: 'Parisienne', serif;
+    font-size: 2.4em;
+    letter-spacing: 0.2em;
+  }
+  
+  .hi{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    color: #f9f1e9;
+    text-align: left;
+    top:80%;
+    left: 65.5%;
+    -webkit-transform: translate3d(-50%,-50%,0);
+    transform: translate(-50%,-50%,0); 
+    word-spacing: 3em;  
+  }
+  
+  .hi .github{
+    font-size: 1.2em;
+    font-family: 'Roboto Mono', serif;
+    font-weight: 300;
+    letter-spacing: 0.3em;
+    text-decoration: underline;
+  }
+  
+  a.github:link{
+    color: red;
+  }
+  
+  a.github:visited{
+    color: red;
+  }
+  
+  .twi{
+    font-size: 1.2em;
+    font-family: 'Roboto Mono', serif;
+    font-weight: 300;
+    letter-spacing: 0.3em;
+    text-decoration: underline; 
+  }
+  
+  a.twi:link{
+    color: #1DA1F2;
+  }
+  
+  a.twi:visited{
+    color: #1DA1F2ed;
+  }
+  
+  
+  .image{
+    top: 32%;
+    left: 2%;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  
