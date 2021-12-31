@@ -34,7 +34,7 @@
   
   .demo .main-title{
     text-transform: uppercase;
-    font-size: 5em;
+    font-size: 4vw;
     letter-spacing: 0.1em;
   }
   
@@ -43,7 +43,7 @@
   }
   
   .infinity{ 
-    font-size: 1.3em;
+    font-size: 5vw;
   }
   
   @media only screen and (max-width: 768px){
@@ -55,20 +55,20 @@
   .subtitle{
     position: absolute;
     font-style: italic;
-    padding-left: 5%;
+    padding-left: 20vw;
     /* margin: 0;
     padding: 0; */
     color: #f9f1e9;
     text-align: center;
     top:22%;
-    left: 7%;
+    /* left: 7%; */
     -webkit-transform: translate3d(-50%,-50%,0);
     transform: translate(-50%,-50%,0); 
   }
   
   .subtitle .sub{
     font-weight: 200;
-    font-size: xx-large;
+    font-size: 1.6vw;
   }
   
   .speech{
@@ -85,10 +85,10 @@
   }
   
   .speech .words{
-    font-size: 1.2em;
+    font-size: 1.8rem;
     font-family: 'Roboto Mono', serif;
     font-weight: 300;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.6rem;
     font-style: italic;
   }
   
@@ -112,7 +112,7 @@
   }
   
   .hi .github{
-    font-size: 1.2em;
+    font-size: 1.8rem;
     font-family: 'Roboto Mono', serif;
     font-weight: 300;
     letter-spacing: 0.3em;
@@ -128,7 +128,7 @@
   }
   
   .twi{
-    font-size: 1.2em;
+    font-size: 1.8rem;
     font-family: 'Roboto Mono', serif;
     font-weight: 300;
     letter-spacing: 0.3em;
@@ -149,6 +149,8 @@
     left: 2%;
     position: absolute;
     z-index: 1;
+    max-width: 100%;
+    height: auto;
   }
   
   
