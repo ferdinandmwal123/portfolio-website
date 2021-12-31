@@ -23,6 +23,7 @@
     position: absolute;
     margin: 0;
     padding: 0;
+    margin-left: 5%;
     color: #f9f1e9;
     text-align: center;
     top:15%;
@@ -59,7 +60,7 @@
     color: #f9f1e9;
     text-align: center;
     top:22%;
-    left: 7.1%;
+    left: 12.1%;
     -webkit-transform: translate3d(-50%,-50%,0);
     transform: translate(-50%,-50%,0); 
   }
