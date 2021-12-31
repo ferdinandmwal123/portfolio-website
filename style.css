@@ -23,11 +23,11 @@
     position: absolute;
     margin: 0;
     padding: 0;
-    margin-left: 5%;
+    padding-left: 5%;
     color: #f9f1e9;
     text-align: center;
     top:15%;
-    left: 23%;
+    left:23%;
     -webkit-transform: translate3d(-50%,-50%,0);
     transform: translate(-50%,-50%,0);
   }
@@ -55,12 +55,13 @@
   .subtitle{
     position: absolute;
     font-style: italic;
-    margin: 0;
-    padding: 0;
+    padding-left: 5%;
+    /* margin: 0;
+    padding: 0; */
     color: #f9f1e9;
     text-align: center;
     top:22%;
-    left: 12.1%;
+    left: 7%;
     -webkit-transform: translate3d(-50%,-50%,0);
     transform: translate(-50%,-50%,0); 
   }
